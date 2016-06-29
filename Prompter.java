@@ -136,7 +136,7 @@ public class Prompter {
             } catch (NumberFormatException nfe) {
                      System.out.println("Sorry, you must enter a number! Please try again.");
             } catch (IOException ioe) {
-                    System. out.println("This is an IOE Error");
+                    System. out.println("Sorry, there has been an IO Error");
             }
    
       } return maxQuantity;
